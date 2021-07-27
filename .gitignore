@@ -1,0 +1,7 @@
+data/
+data_v2/
+exp/
+fbank/
+mfcc/
+*.out
+*.pyc

@@ -1,0 +1,20 @@
+dataset:
+    speed_perturb: true
+    feature_extraction_conf:
+        feature_type: 'mfcc'
+        num_ceps: 40
+        num_mel_bins: 40
+        frame_shift: 10
+        frame_length: 25
+        using_pitch: false
+        wav_dither: 1.0
+        energy_floor: 0.0
+
+    feature_dither: 0.0 # add dither [-feature_dither,feature_dither] on fbank feature
+    spec_aug: true
+    spec_aug_conf:
+        warp_for_time: False
+        num: 1
+        max_t: 20
+        max_f: 20
+        max_w: 40
